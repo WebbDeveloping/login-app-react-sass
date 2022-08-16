@@ -1,0 +1,209 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: $font-regular;
+    line-height: 1.7;
+    color: $color-neutral-600;
+    
+}
+
+// HEADING
+
+h1, .h1{
+    font-size: 4.2rem;
+    color: $color-neutral-800;
+}
+
+h2, .h2{
+    font-size: 3.2rem;
+    color: $color-neutral-800;
+}
+
+h3, .h3{
+    font-size: 2.4rem;
+    color: $color-neutral-800;
+}
+
+h4, .h4{
+    font-size: 2.2rem;
+    color: $color-neutral-800;
+}
+
+h5, .h5{
+    font-size: 1.8rem;
+    color: $color-neutral-800;
+}
+
+h6, .h6{
+    font-size: 1.6rem;
+    color: $color-neutral-800;
+}
+
+// DISPLAY HEADING
+
+.display{
+    font-size: 7.8rem;
+    font-weight: $font-medium;
+    color: $color-neutral-800;
+
+    &--2{
+        font-size: 5.4rem;
+        font-weight: 700;
+        color: $color-neutral-800;
+    }
+
+    &--3{
+        font-size: 4.4rem;
+        font-weight: $font-bold;
+        color: $color-neutral-800;
+    }
+
+    &--4{
+        font-size: 2.2rem;
+        font-weight: $font-bold;
+        color: $color-neutral-800;
+    }
+}
+
+// Paragraph
+
+.paragraph-large{
+    font-size: 1.8rem;
+    font-weight: $font-regular;
+}
+
+p, .paragraph-default{
+    font-size: 1.4rem;
+    font-weight: $font-regular;
+}
+
+.paragraph-small{
+    font-size: 1.2rem;
+    font-weight: $font-regular;
+}
+
+// TEXT SIZE
+.text{
+   &__400{
+    font-size: 1.8rem;
+
+        &--reular{
+            font-weight: $font-regular;
+            font-size: 1.8rem;
+            color: $color-neutral-600;
+        }
+    
+        &--medium{
+            font-weight: $font-medium;
+            font-size: 1.8rem;
+            color: $color-neutral-600;
+        }
+        &--bold{
+            font-weight: $font-bold;
+        }
+
+        &--white{
+            color: $color-neutral-100;
+        }
+    }
+
+    &__300{
+        font-size: 1.6rem;
+        &--regular{
+            font-weight: $font-regular;
+        }
+        &--medium{
+            font-weight: $font-medium;
+        }
+        &--bold{
+            color: $color-neutral-800;
+            font-weight: $font-bold;
+        }
+
+        &--white{
+            color: $color-neutral-100;
+        }
+
+        &--blue{
+            color: $color-primary;
+        }
+    }
+
+    &__200{
+        font-size: 1.4rem;
+        &--regular{
+            font-size: 1.4rem;
+            font-weight: $font-regular;
+        }
+        &--medium{
+            font-size: 1.4rem;
+            font-weight: $font-medium;
+        }
+        &--bold{
+            font-size: 1.4rem;
+            color: $color-neutral-800;
+            font-weight: $font-bold;
+        }
+
+        &--green{
+            font-size: 1.4rem;
+            color: $color-green-300;
+        }
+
+        &--blue{
+            font-size: 1.4rem;
+            color: $color-blue-200;
+        }
+    }
+
+    &__100{
+        font-size: 1.2rem;
+        &--regular{
+            font-weight: $font-regular;
+        }
+        &--medium{
+            font-weight: $font-medium;
+        }
+        &--bold{
+            color: $color-neutral-800;
+            font-weight: $font-bold;
+        }
+
+        &--white{
+            color: $color-neutral-100;
+        }
+    }
+
+    &__50{
+        font-size: 1rem;
+        &--medium{
+            font-weight: $font-medium;
+        }
+        &--bold{
+            color: $color-neutral-800;
+            font-weight: $font-bold;
+        }
+
+        &--white{
+            color: $color-neutral-100;
+        }
+    }
+}
+
+
+// LINKS
+
+.link{
+
+    &--wrapper{
+        display: inline-block;
+        color: $color-neutral-800;
+    }
+
+    &--text{
+        display: inline-block;
+    }
+}
+
+.bold{
+    font-weight: 700;
+}

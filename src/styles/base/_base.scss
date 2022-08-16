@@ -10,8 +10,8 @@
 
 html {
     // This defines what 1rem is
-    font-size: 10px;
-    // font-size: 62.5%;  //1rem = 10px; 10px/16px = 62.5%
+    // font-size: 10px;
+    font-size: 62.5%;  //1rem = 10px; 10px/16px = 62.5%
 
     // @include respond(tab-port){ // width > 600px
     //     font-size: 50%;// 1 rem = 8px, 8/16 = 50%
@@ -28,4 +28,9 @@ body {
     box-sizing: border-box;
     background-color: $color-neutral-200;
     font-size: 62.5%;  //1rem = 10px; 10px/16px = 62.5%
+        font-size: 10px;
+}
+
+.logo{
+    max-width: 175px;
 }

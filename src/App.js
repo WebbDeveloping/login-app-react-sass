@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import EmailConfirmation from './components/EmailConfirmation';
 import Login from './components/Login';
 
