@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:200,300,400,500,600,700,800,900');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 10px;
+    // font-size: 62.5%;  //1rem = 10px; 10px/16px = 62.5%
+
+    // @include respond(tab-port){ // width > 600px
+    //     font-size: 50%;// 1 rem = 8px, 8/16 = 50%
+    // }
+    // @include respond(tab-land){ // width > 900px
+    //     font-size: 56.25%; // 1 rem = 8px, 9/16 = 56.25%
+    // }
+    // @include respond(large-desktop){ // width > 1800px
+    //     font-size: 75%; // 1 rem = 12px, 12/16 = 56.25%
+    // }
+}
+
+body {
+    box-sizing: border-box;
+    background-color: $color-neutral-200;
+    font-size: 62.5%;  //1rem = 10px; 10px/16px = 62.5%
+}
