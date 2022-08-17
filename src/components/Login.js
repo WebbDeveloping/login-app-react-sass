@@ -1,6 +1,8 @@
 import React from "react";
 import Error from "./forms/Error";
 import Success from "../components/forms/Success";
+import lockIcon from '../styles/images/graphic.svg'
+import logo from '../styles/images/logo.svg'
 
 export default function Login() {
     const [formData, setFormData] = React.useState({
@@ -33,7 +35,7 @@ export default function Login() {
             <div className="flex--center login__logo-wrapper">
                 <img
                 className='logo'
-                    src="http://ones.flatheme.net/assets/images/client-3.png"
+                    src={logo}
                     alt=""
                 />
             </div>
@@ -43,8 +45,8 @@ export default function Login() {
                         <div className="module__inner-container--center">
                             <div className="inner_container">
                                 <img
-                                    className="mb-32"
-                                    src="https://assets.website-files.com/6260849a6eab2a733e282630/627972fdabfa5fbd3e741ae5_log-in-icon-dashboardly-webflow-template.svg"
+                                    className="graphic mb-32"
+                                    src={lockIcon}
                                     alt=""
                                 />
                             </div>

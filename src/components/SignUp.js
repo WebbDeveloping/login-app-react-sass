@@ -1,6 +1,7 @@
 import React from 'react'
 import Error from './forms/Error';
 import signImg from '../styles/images/register-graphic.svg';
+import logoImg from '../styles/images/logo.svg';
 import Success from './forms/Success';
 
 export default function SignUp() {
@@ -34,7 +35,7 @@ export default function SignUp() {
         <div className="sign-up-page__logo-container">
           <div className="sign-up-page__inner-container w-100">
             <a href="/" className="sign-up-page__logo-wrapper">
-              <img src="http://ones.flatheme.net/assets/images/client-3.png" alt="" className="logo" />
+              <img src={logoImg} alt="" className="logo" />
             </a>
           </div>
         </div>
