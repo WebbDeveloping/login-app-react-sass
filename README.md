@@ -10,4 +10,4 @@ Login Form
 
 Register Form
 
-![login-page-form](https://github.com/WebbDeveloping/login-app-react-sass/blob/main/src/styles/images/screenshots/sign-in-screnshot.png?raw=true)
+![login-page-form](https://github.com/WebbDeveloping/login-app-react-sass/blob/main/src/styles/images/screenshots/sign-in-screenshot.png?raw=true)
